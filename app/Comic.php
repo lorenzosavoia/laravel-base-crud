@@ -4,7 +4,7 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 
-class Comics extends Model
+class Comic extends Model
 {
     protected $fillable = [
         'author',
@@ -14,5 +14,5 @@ class Comics extends Model
         'coverImg',
         'price',
     ];
-    public $timestamp =false;
+    
 }

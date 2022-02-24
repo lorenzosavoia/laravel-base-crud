@@ -21,6 +21,7 @@ class CreateComicsTable extends Migration
             $table->string('relase_date', 100);
             $table->string('coverImg', 100);
             $table->smallInteger('price');
+            $table->timestamps();
         });
     }
 
